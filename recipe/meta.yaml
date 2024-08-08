@@ -1,5 +1,5 @@
 {% set name = "auto-intersphinx" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9ab249bb9830462401e0535e5285457a441a2c6ae7a644eca533bd60073cd0ec
+  sha256: e15da72d506f3cc3f2ffeb6a0231dfb57a6d51da4551530cac717d34d408af87
 
 build:
   entry_points:
