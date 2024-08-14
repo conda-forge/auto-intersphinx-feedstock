@@ -1,5 +1,5 @@
 {% set name = "auto-intersphinx" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9ab249bb9830462401e0535e5285457a441a2c6ae7a644eca533bd60073cd0ec
+  sha256: 4d904c1571a646ad0800deb9b3620bc0dc33f70557fa52d50016cae3c5eaba3a
 
 build:
   entry_points:
@@ -43,9 +43,9 @@ test:
     - pytest
 
 about:
-  home: https://gitlab.idiap.ch/software/auto-intersphinx
+  home: https://github.com/idiap/auto-intersphinx
   doc_url: https://auto-intersphinx.readthedocs.io
-  dev_url: https://gitlab.idiap.ch/software/auto-intersphinx
+  dev_url: https://github.com/idiap/auto-intersphinx
   summary: Automatic links direct project dependencies to the intersphinx catalog
   license: BSD-3-Clause
   license_file: LICENSES/BSD-3-Clause.txt
