@@ -3,13 +3,13 @@ About auto-intersphinx-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/auto-intersphinx-feedstock/blob/main/LICENSE.txt)
 
-Home: https://gitlab.idiap.ch/software/auto-intersphinx
+Home: https://github.com/idiap/auto-intersphinx
 
 Package license: BSD-3-Clause
 
 Summary: Automatic links direct project dependencies to the intersphinx catalog
 
-Development: https://gitlab.idiap.ch/software/auto-intersphinx
+Development: https://github.com/idiap/auto-intersphinx
 
 Documentation: https://auto-intersphinx.readthedocs.io
 
